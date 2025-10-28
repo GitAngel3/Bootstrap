@@ -10,10 +10,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <style>
-    .container{
+    div.container{
         margin: auto;
     }
-    
+    display-1{
+        text-align: center;
+    }
+
+
     
   </style>
 </head>
@@ -46,23 +50,23 @@
       <tr>
         <td>Manu</td>
         <td>Hr Manager</td>
-        <td>Active</td>
+        <td class="text-success">Active</td>
         
       </tr>
       <tr>
         <td>Aleena An</td>
         <td>Trainee</td>
-        <td>On Leave</td>
+        <td class="text-warning">On Leave</td>
         
       </tr>
       <tr>
         <td>Roshna</td>
         <td>Senior Developer</td>
-        <td>Resigned</td>
+        <td class="text-danger">Resigned</td>
         
       </tr>
     </tbody>
   </table>
-  <div class="alert alert-success alert-dismissible fade show">Profile updated successfully</div>
+  <div class="alert alert-warning">Roshna is is not currently active.</div>
 </body>
 </html>
